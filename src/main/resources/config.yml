@@ -1,0 +1,12 @@
+upgrades:
+  upgrade1:
+    price: 1000
+    enchant: EFFICIENCY
+    max-level: 5
+    display-name: מהירות חציבה
+
+  upgrade2:
+    price: 1000
+    enchant: UNBREAKING
+    max-level: 3
+    display-name: עמידות

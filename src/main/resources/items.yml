@@ -1,0 +1,32 @@
+# 📦 items.yml - GUI Button Item Configuration
+
+buttons:
+  CONFIRM:
+    material: GREEN_WOOL
+    custom-model-data: 1111
+    name: "<green><!italic>Confirm - <gold>%PRICE%</gold>$</green>"
+    lore:
+      - "<gray><!italic>Click to confirm the upgrade</gray>"
+
+  CANCEL:
+    material: RED_WOOL
+    custom-model-data: 2222
+    name: "<red><!italic>Cancel</red>"
+    lore:
+      - "<gray><!italic>Click to cancel the upgrade</gray>"
+
+  LOCKED:
+    material: BARRIER
+    custom-model-data: 3333
+    name: "<red><!italic>%UPGRADE%</red>"
+    lore:
+      - "<gray><!italic>You have reached the maximum level for this upgrade.</gray>"
+
+  UPGRADE:
+    material: ENCHANTED_BOOK
+    custom-model-data: 4444
+    name: "<yellow><!italic>Upgrade: %UPGRADE%</yellow>"
+    lore:
+      - "<gray><!italic>Next level: <aqua>%LEVEL%</aqua></gray>"
+      - ""
+      - "<gray><!italic>Click here to upgrade</gray>"

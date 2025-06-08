@@ -1,0 +1,26 @@
+# 📄 messages.yml - הודעות ופרטי GUI
+
+prefix: "<bold><aqua>NexTier</aqua></bold><gray> | </gray>"
+
+messages:
+  PLAYER_ONLY: "<red>This command can only be used by players.</red>"
+  COMMAND_USE: "<yellow>Usage:</yellow> <gray>/%COMMAND% item <add | remove | list></gray>"
+  ITEM_IN_HAND: "<red>You must be holding an item.</red>"
+  CANCELLED: "<gray>Upgrade cancelled.</gray>"
+  MAX_LEVEL: "<yellow>This item is already at the maximum upgrade level.</yellow>"
+  NOT_ENOUGH_MONEY: "<red>You don't have enough money. Required:</red> <gold>%PRICE%</gold>"
+  ADDED_ITEM: "<green>Item <white>%MATERIAL%</white> was added to the upgradable list.</green>"
+  REMOVED_ITEM: "<green>Item <white>%MATERIAL%</white> was removed from the upgradable list.</green>"
+  ALREADY_IN_LIST: "<yellow>This item is already in the upgradable list.</yellow>"
+  NOT_IN_LIST: "<red>This item is not in the upgradable list.</red>"
+  UNFAMILIAR_SUBCOMMAND: "<red>Unknown subcommand:</red> <gray>%ACTION%</gray>"
+  SUCCESS: "<green>Upgrade <yellow>%UPGRADE%</yellow> successful! New level: <aqua>%LEVEL%</aqua></green>"
+  NOT_UPGRADABLE: "<red>This item cannot be upgraded.</red>"
+  NOT_MORE_THAN_ONE: "<red>You can't upgrade more than one item at a time!</red>"
+  NO_UPGRADABLE_ITEMS: "<gray>No upgradeable items found.</gray>"
+  UPGRADABLE_ITEMS_HEADER: "<gold>Upgradeable items:</gold>"
+  RELOADED: "<green>Configuration files reloaded successfully.</green>"
+
+menu:
+  MAIN_TITLE: "<bold><dark_gray>Item Upgrades</dark_gray></bold>"
+  CONFIRM_TITLE: "<b><green>Confirm Upgrade - %UPGRADE%</green></b>"

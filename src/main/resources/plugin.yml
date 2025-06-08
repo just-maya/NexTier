@@ -1,0 +1,18 @@
+name: NexTier
+version: '1.0-SNAPSHOT'
+main: me.justmaya.nexTier.NexTier
+api-version: '1.21'
+authors: [ JustMaya ]
+depend: [Vault]
+commands:
+  nextier:
+    aliases:
+      - nt
+    description: main command
+    usage: /<command> <item> <add|remove>
+    permission: nextier.admin
+
+permissions:
+  nextier.admin:
+    description: permission for the /nextier command!
+    default: op
