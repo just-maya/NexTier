@@ -6,15 +6,6 @@ plugins {
 group = 'me.justmaya'
 version = '1.0-SNAPSHOT'
 
-def serverPluginsDir = 'C:/Users/ariel/Desktop/minecraft servers/maya paper 1.21.1/plugins'
-
-tasks.register('deployToLocalServer', Copy) {
-    from layout.buildDirectory.file('libs')
-    into file(serverPluginsDir)
-    include '*.jar'
-    dependsOn jar
-}
-
 repositories {
     mavenCentral()
     maven {
